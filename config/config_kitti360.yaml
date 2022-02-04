@@ -3,10 +3,14 @@ show: false
 remap: false
 file_name_length: 10
 eval_pair:
-  cloud_file1: "/media/l/yp2/KITTI-360/data_3d_raw/2013_05_28_drive_0000_sync/velodyne_points/data/0000004863.bin"
-  cloud_file2: "/media/l/yp2/KITTI-360/data_3d_raw/2013_05_28_drive_0000_sync/velodyne_points/data/0000004528.bin"
-  label_file1: "/media/l/yp2/KITTI-360/labels/2013_05_28_drive_0000_sync/0000004863.label"
-  label_file2: "/media/l/yp2/KITTI-360/labels/2013_05_28_drive_0000_sync/0000004528.label"
+#  cloud_file1: "/media/l/yp2/KITTI-360/data_3d_raw/2013_05_28_drive_0000_sync/velodyne_points/data/0000004863.bin"
+#  cloud_file2: "/media/l/yp2/KITTI-360/data_3d_raw/2013_05_28_drive_0000_sync/velodyne_points/data/0000004528.bin"
+#  label_file1: "/media/l/yp2/KITTI-360/labels/2013_05_28_drive_0000_sync/0000004863.label"
+#  label_file2: "/media/l/yp2/KITTI-360/labels/2013_05_28_drive_0000_sync/0000004528.label"
+  cloud_file1: "../dataset/sequences/00/velodyne/000000.bin"
+  cloud_file2: "../dataset/sequences/00/velodyne/000001.bin"
+  label_file1: "../dataset/sequences/00/labels/000000.bin"
+  label_file2: "../dataset/sequences/00/labels/000000.bin"
 eval_seq:
   cloud_path: "/media/l/yp2/KITTI-360/data_3d_raw/2013_05_28_drive_0002_sync/velodyne_points/data/"
   label_path: "/media/l/yp2/KITTI-360/labels/2013_05_28_drive_0002_sync/"

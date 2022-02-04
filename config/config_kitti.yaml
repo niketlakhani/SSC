@@ -3,10 +3,14 @@ show: false
 remap: true
 file_name_length: 6
 eval_pair:
-  cloud_file1: "../data/000720.bin"
-  cloud_file2: "../data/001500.bin"
-  label_file1: "../data/000720.label"
-  label_file2: "../data/001500.label"
+#  cloud_file1: "../data/000720.bin"
+#  cloud_file2: "../data/001500.bin"
+#  label_file1: "../data/000720.label"
+#  label_file2: "../data/001500.label"
+  cloud_file1: "../dataset/sequences/00/velodyne/000000.bin"
+  cloud_file2: "../dataset/sequences/00/velodyne/000001.bin"
+  label_file1: "../dataset/sequences/00/labels/000000.bin"
+  label_file2: "../dataset/sequences/00/labels/000000.bin"
 eval_seq:
   cloud_path: "/media/l/yp2/KITTI/odometry/dataset/sequences/08/velodyne/"
   label_path: "/media/l/yp2/KITTI/odometry/dataset/sequences/08/labels/"
