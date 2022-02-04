@@ -9,8 +9,8 @@ eval_pair:
 #  label_file2: "../data/001500.label"
   cloud_file1: "../dataset/sequences/00/velodyne/000000.bin"
   cloud_file2: "../dataset/sequences/00/velodyne/000001.bin"
-  label_file1: "../dataset/sequences/00/labels/000000.bin"
-  label_file2: "../dataset/sequences/00/labels/000000.bin"
+  label_file1: "../dataset/sequences/00/labels/000000.label"
+  label_file2: "../dataset/sequences/00/labels/000000.label"
 eval_seq:
   cloud_path: "/media/l/yp2/KITTI/odometry/dataset/sequences/08/velodyne/"
   label_path: "/media/l/yp2/KITTI/odometry/dataset/sequences/08/labels/"
